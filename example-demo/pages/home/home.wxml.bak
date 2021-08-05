@@ -1,6 +1,13 @@
 <view>
-    <text class="title">Homepage</text>
-    <button bind:tap="buttonHandler">Goto Second Page</button>
+    <text class="tilte"> Hi {{name}}</text>
+    <button open-type="getUserInfo" bind:getuserinfo="buttonHandler">
+        Access Personal Information
+    </button>
+
+    <input placeholder="Add New Item" bind:input="inputHandler"/>
+    <button bind:tap="buttonHandler">Confirm</button>
+
+    <text class="tilte"> Time is {{now}}</text>
 
     <swiper
         indicator-dots="{{true}}"  

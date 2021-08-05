@@ -1,0 +1,10 @@
+{
+    "pages": [
+        "pages/home/home"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#00ff00",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "example-demo"
+    }
+}

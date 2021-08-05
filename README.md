@@ -2,16 +2,18 @@
 <p>
 </p>
 
-> Move your hand, get your information.
+> Move your hand, get your property information.
 
 
 eProperty is a mini program project to fetch your property information from you local facilite. This project contains a demo and real one, WIP.
 
 
-## ✨ [Demo](https://weixin.qq.cn/xxxx)
+## ✨ [Demo](https://) Waiting...
 
 
 ## Instruction
+
+
 
 
 
@@ -21,9 +23,15 @@ eProperty is a mini program project to fetch your property information from you 
 |- app.json
 |- app.js
 |- pages
-   |- home
+   |- home // homepage
       |- home.wxml
       |- home.js
+   |- b    // second page
+      |- b.wxml
+      |- b.js
+   |- x    // xth page
+      |- x.wxml
+      |- x.js
 ```
 
 
@@ -33,7 +41,9 @@ Give a ⭐️ if this project helped you!
 
 ## Credit
 
-[Miniprogram-tutorial](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-one.html)
+- [Miniprogram-tutorial](https://github.com/ruanyf/wechat-miniprogram-demos). Content: [Part 1](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-one.html)/[Part 2](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-two.html)/[Part 3](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-three.html)/[Part 4](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-four.html).
+- [Official Documentary](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+- [小程序开发指南](https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0008aeea9a8978ab0086a685851c0a)
 
 ## License
 
