@@ -1,0 +1,24 @@
+<view>
+    <swiper
+        indicator-dots="{{true}}"  
+        autoplay="{{true}}"
+        style="width: 750rpx;">
+        
+        <swiper-item>
+            <image src="https://github.com/i0Ek3/eProperty/blob/main/avatar/demon.jpg" style="height: 375rpx; width: 375rpx;"></image>
+        </swiper-item>
+
+        <swiper-item>
+            <image src="https://github.com/i0Ek3/eProperty/blob/main/avatar/demon2.jpg" style="height: 375rpx; width: 375rpx;"></image>
+        </swiper-item>
+
+        <swiper-item>
+            <image src="https://github.com/i0Ek3/eProperty/blob/main/avatar/demon3.jpg" style="height: 375rpx; width: 375rpx;"></image>
+        </swiper-item>
+    </swiper>
+
+    <button class="weui-btn weui-btn_primary">Main Operation</button>
+    <button class="weui-btn weui-btn_primary weui-btn_loding"><i class="weui-loading"></i>Loading...</button>
+    <button class="weui-btn weui-btn_primary weui-btn_disabled">DO NOT CLICK!</button>
+
+</view> 
