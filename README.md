@@ -13,8 +13,12 @@ eProperty is a mini program project to fetch your property information from you 
 
 ## Instruction
 
+Comming soon...
 
 
+## Page Design
+
+Comming soon...
 
 
 ## Structure
@@ -41,7 +45,7 @@ Give a ⭐️ if this project helped you!
 
 ## Credit
 
-- [Miniprogram-tutorial](https://github.com/ruanyf/wechat-miniprogram-demos). Content: [Part 1](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-one.html)/[Part 2](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-two.html)/[Part 3](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-three.html)/[Part 4](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-four.html).
+- [Miniprogram-tutorial](https://github.com/ruanyf/wechat-miniprogram-demos). Content: [Part 1 Structure of Project](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-one.html)/[Part 2 Page Layout](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-two.html)/[Part 3 Script Programming](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-three.html)/[Part 4 Using API](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-four.html).
 - [Official Documentary](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 - [小程序开发指南](https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0008aeea9a8978ab0086a685851c0a)
 
