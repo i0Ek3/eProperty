@@ -2,6 +2,7 @@
     <text class="title">Homepage</text>
     <button bind:tap="buttonHandler">Goto Second Page</button>
 
+    <!-- picture scrolling action -->
     <swiper
         indicator-dots="{{true}}"  
         autoplay="{{true}}"
