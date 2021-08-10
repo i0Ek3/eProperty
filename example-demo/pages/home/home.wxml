@@ -1,5 +1,5 @@
 <view>
-    <text class="title">Homepage</text>
+    <text class="title" color="#ffffff">Homepage</text>
     <button bind:tap="buttonHandler">Goto Second Page</button>
 
     <!-- picture scrolling action -->

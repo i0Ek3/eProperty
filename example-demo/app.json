@@ -1,11 +1,20 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/second/second",
+    "pages/me/me"
   ],
   "window": {
     "navigationBarBackgroundColor": "#00ff00",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "example-demo"
+  },
+  "tabBar": {
+    "list": [
+          { "text": "Homepage", "pagePath": "pages/home/home" },
+          { "text": "Nextpage", "pagePath": "pages/second/second" },
+          { "text": "My Account", "pagePath": "pages/me/me" }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
