@@ -1,11 +1,21 @@
+var app = getApp()
+
 Page({
-    onLoad: function(option) {
-        console.log(option.id)
-        console.log(option.other)
+    data: {
+        userInfo: {}
     },
-    buttonHandler(event) {
-        wx.navigateTo({
-            url: '../second/second?id=2&other=cde'
-        });
+    bindViewTap: function() {
+        this.getLocation()
+    },
+    getLocation: function() {
+        var that = this
+    },
+    onLoad: function() {
+        console.log('onLoad')
+        app.getUserInfo((userInfo) => {
+            this.setData({
+                userInfo: userInfo
+            })
+        })
     }
 });

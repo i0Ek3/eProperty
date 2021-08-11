@@ -5,15 +5,17 @@
     "pages/me/me"
   ],
   "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#00ff00",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "example-demo"
   },
   "tabBar": {
+    "selectedColor": "cyan",
     "list": [
-          { "text": "Homepage", "pagePath": "pages/home/home" },
-          { "text": "Nextpage", "pagePath": "pages/second/second" },
-          { "text": "My Account", "pagePath": "pages/me/me" }
+          { "text": "Homepage", "pagePath": "pages/home/home", "iconPath": "images/demon.jpg" },
+          { "text": "Nextpage", "pagePath": "pages/second/second", "iconPath": "images/demon2.jpg" },
+          { "text": "About", "pagePath": "pages/me/me", "iconPath": "images/demon3.jpg" }
     ]
   },
   "sitemapLocation": "sitemap.json"

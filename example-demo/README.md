@@ -9,21 +9,31 @@ This demo just an example to show you how to develop a WeiXin mini program.
 ## Structure
 
 ```console
-
 .
 ├── README.md
-├── app.js    // required
-├── app.json  // optional
-├── app.wxss  // optional
-├── pages     
+├── app.js
+├── app.json
+├── app.wxss
+├── images
+│   ├── demon.jpg
+│   ├── demon2.jpg
+│   └── demon3.jpg
+├── pages
 │   ├── home
-│   │   ├── home.js      // required
-│   │   ├── home.json    // optional
-│   │   ├── home.wxml    // required
-│   │   └── home.wxss    // optional
+│   │   ├── home.js
+│   │   ├── home.json
+│   │   ├── home.wxml
+│   │   └── home.wxss
+│   ├── me
+│   │   ├── me.js
+│   │   ├── me.json
+│   │   ├── me.wxml
+│   │   └── me.wxss
 │   └── second
-│       ├── second.js    // required
-│       └── second.wxml  // required
+│       ├── second.js
+│       ├── second.json
+│       ├── second.wxml
+│       └── second.wxss
 ├── project.config.json
 └── sitemap.json
 

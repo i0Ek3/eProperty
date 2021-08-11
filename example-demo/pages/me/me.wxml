@@ -1,2 +1,4 @@
 <!--pages/me/me.wxml-->
-<text class="title">pages/me/me.wxml</text>
+<view class="container">
+    <text class="title">Welcome to page About.</text>
+</view>

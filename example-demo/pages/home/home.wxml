@@ -1,6 +1,8 @@
-<view>
-    <text class="title" color="#ffffff">Homepage</text>
-    <button bind:tap="buttonHandler">Goto Second Page</button>
+<view class="container">
+    <view bindtap="bindViewTap" class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
 
     <!-- picture scrolling action -->
     <swiper
@@ -9,20 +11,17 @@
         style="width: 750rpx;">
         
         <swiper-item>
-            <image src="https://github.com/i0Ek3/eProperty/blob/hyenas/avatar/demon.jpg" style="height: 375rpx; width: 375rpx;"></image>
+            <image src="../../images/demon.jpg" style="height: 375rpx; width: 750rpx;"></image>
         </swiper-item>
 
         <swiper-item>
-            <image src="https://github.com/i0Ek3/eProperty/blob/hyenas/avatar/demon2.jpg" style="height: 375rpx; width: 375rpx;"></image>
+            <image src="../../images/demon2.jpg" style="height: 375rpx; width: 750rpx;"></image>
         </swiper-item>
 
         <swiper-item>
-            <image src="https://github.com/i0Ek3/eProperty/blob/hyenas/avatar/demon3.jpg" style="height: 375rpx; width: 375rpx;"></image>
+            <image src="../../images/demon3.jpg" style="height: 375rpx; width: 750rpx;"></image>
         </swiper-item>
     </swiper>
-
-    <button class="weui-btn weui-btn_primary">Main Operation</button>
-    <button class="weui-btn weui-btn_primary weui-btn_loding"><i class="weui-loading"></i>Loading...</button>
-    <button class="weui-btn weui-btn_primary weui-btn_disabled">DO NOT CLICK!</button>
-
+    
+    <text class="title">Welcome to Homepage.</text>
 </view> 

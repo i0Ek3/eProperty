@@ -64,9 +64,4 @@ Page({
   onShareAppMessage: function () {
 
   },
-  buttonHandler(event) {
-    wx.navigateTo({
-        url: '../home/home?id=1&other=abc'
-    });
-  }
 })
