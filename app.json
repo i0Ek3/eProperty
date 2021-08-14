@@ -3,9 +3,10 @@
     "pages/home/home"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "example-demo"
+    "navigationBarTextSize": "large",
+    "navigationBarTitleText": "eProperty"
   },
   "sitemapLocation": "sitemap.json"
 }

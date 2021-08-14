@@ -1,4 +1,5 @@
 <view class="container">
+
     <view bindtap="bindViewTap" class="userinfo">
         <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -23,5 +24,7 @@
         </swiper-item>
     </swiper>
     
-    <text class="title">Welcome to Homepage.</text>
+    <text class="title">{{ctx}}</text>
+
+    <button bindtap="onClick">Click</button>
 </view> 

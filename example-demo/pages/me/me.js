@@ -11,9 +11,12 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(option) {
-    console.log(option.id)
-    console.log(option.other)
+  onLoad: function() {
+    console.log('appName = ' + navigator.appName)
+    console.log('appVersion = ' + navigator.appVersion)
+    console.log('language = ' + navigator.language)
+    console.log('platform = ' + navigator.platform)
+    console.log('userAgent = ' + navigator.userAgent)
   },
 
   /**

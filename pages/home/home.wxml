@@ -1,23 +1,15 @@
-<view>
-    <swiper
-        indicator-dots="{{true}}"
-        autoplay="{{true}}"
-        style="width: 750rpx;">
+<view></view>
 
-        <swiper-item>
-            <image src="https://github.com/i0Ek3/eProperty/blob/hyenas/avatar/demon.jpg" style="height: 375rpx; width: 375rpx;"></image>
-        </swiper-item>
+    <image mode="widthFix" src="../../images/e.jpg"></image>
 
-        <swiper-item>
-            <image src="https://github.com/i0Ek3/eProperty/blob/hyenas/avatar/demon2.jpg" style="height: 375rpx; width: 375rpx;"></image>
-        </swiper-item>
-
-        <swiper-item>
-            <image src="https://github.com/i0Ek3/eProperty/blob/hyenas/avatar/demon3.jpg" style="height: 375rpx; width: 375rpx;"></image>
-        </swiper-item>
-    </swiper>
-
-    <button class="weui-btn weui-btn_primary">Main Operation</button>
-    <button class="weui-btn weui-btn_primary weui-btn_loding"><i class="weui-loading"></i>Loading...</button>
-    <button class="weui-btn weui-btn_primary weui-btn_disabled">DO NOT CLICK!</button>
-</view>
+    <view class="shadow">Get your own eProperty.</view>
+    
+    <view class="body">
+        <view>eProperty is an electronic property certificate distributed by national platform. You only need to move you hand on your smartphone, and then get your property information quickly.</view>
+        
+        <view class="body">
+            <view class="hint">Wanna try? Click button!</view>     
+            <button bindtap="onClick" type="primary">Get your own eProperty</button>
+            <view class="msg">{{ctx}}</view>
+        </view>
+    </view>
