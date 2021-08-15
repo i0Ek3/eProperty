@@ -4,8 +4,8 @@ Page({
     data: {
     },
     onClick: function (){
-        this.setData({
-            ctx: 'Thank you for you click, generating details...'
+        wx.navigateTo({
+            url: '../info/info',
         })
     }
 });

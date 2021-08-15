@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/info/info",
+    "pages/detail/detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTextSize": "large",
     "navigationBarTitleText": "eProperty"
   },
   "sitemapLocation": "sitemap.json"

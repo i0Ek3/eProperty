@@ -11,6 +11,7 @@ page {
 image {
     width: 75%;
     position: relative;
+    margin-top: 30px;
 }
 
 .shadow {

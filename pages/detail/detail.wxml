@@ -1,0 +1,25 @@
+<view class="title">Preview your eProperty data</view>
+
+<!-- TODO: Generate the eProperty certificate here and show then -->
+<view>
+    <view class="content">Name:
+        <text class="value">{{name}}</text>
+    </view>
+    <view class="content">ID Number:
+        <text class="value">{{id}}</text>
+    </view>
+    <view class="content">Address:
+        <text class="value">{{addr}}</text>
+    </view> 
+    <view class="content">Property:
+        <text class="value">{{property}}</text>
+    </view>
+    <view class="content">Expired:
+        <text class="value">{{expired}}</text>
+    </view>
+    <view class="content">Status:
+        <text class="value">{{status}}</text>
+    </view>
+</view>
+
+<button class="download" bindtap="download" type="primary">Download eProperty</button>

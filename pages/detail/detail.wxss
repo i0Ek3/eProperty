@@ -1,0 +1,32 @@
+.title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.content {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: lighter;
+  font-style: oblique;
+  color: black;
+}
+
+.value {
+  text-align: right;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+}
+
+.download {
+  font-weight: normal;
+  color: white;
+  background-color: rgb(106, 170, 9);
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 10px grey;
+}

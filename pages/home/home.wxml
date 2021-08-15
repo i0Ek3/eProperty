@@ -1,6 +1,5 @@
 <view></view>
-
-    <image mode="widthFix" src="../../images/e.jpg"></image>
+    <image class="image" mode="widthFix" src="../../images/e.jpg"></image>
 
     <view class="shadow">Get your own eProperty.</view>
     
@@ -10,6 +9,5 @@
         <view class="body">
             <view class="hint">Wanna try? Click button!</view>     
             <button bindtap="onClick" type="primary">Get your own eProperty</button>
-            <view class="msg">{{ctx}}</view>
         </view>
     </view>
