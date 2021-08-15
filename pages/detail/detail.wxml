@@ -1,7 +1,7 @@
 <view class="title">Preview your eProperty data</view>
 
 <!-- TODO: Generate the eProperty certificate here and show then -->
-<view>
+<view class="detail">
     <view class="content">Name:
         <text class="value">{{name}}</text>
     </view>

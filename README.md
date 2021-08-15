@@ -39,12 +39,31 @@ Basic mini program interface like this:
 ├── app.wxss
 ├── example-demo
 ├── images
-│   └── e.jpg
+│   ├── e.jpg
+│   ├── eProperty.png
+│   ├── eProperty.sketch
+│   ├── mini1.png
+│   ├── mini2.png
+│   └── mini3.png
 ├── pages
-│   └── home
-│       ├── home.js
-│       ├── home.wxml
-│       └── home.wxss
+│   ├── auth
+│   │   ├── auth.js
+│   │   ├── auth.wxml
+│   │   └── auth.wxss
+│   ├── detail
+│   │   ├── detail.js
+│   │   ├── detail.json
+│   │   ├── detail.wxml
+│   │   └── detail.wxss
+│   ├── home
+│   │   ├── home.js
+│   │   ├── home.wxml
+│   │   └── home.wxss
+│   └── info
+│       ├── info.js
+│       ├── info.json
+│       ├── info.wxml
+│       └── info.wxss
 ├── project.config.json
 ├── sitemap.json
 └── template

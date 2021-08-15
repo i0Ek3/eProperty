@@ -42,6 +42,7 @@ This demo just an example to show you how to develop a WeiXin mini program.
 
 ## Credit
 
+- [小程序开发进阶之前端开发](https://developers.weixin.qq.com/community/business/doc/00020a82e34228bdd53aafd185680d)
 - [阮一峰小程序开发教程](https://github.com/ruanyf/wechat-miniprogram-demos)
   - [Part 1: Structure of Project](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-one.html)
   - [Part 2: Page Layout](https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-two.html)
