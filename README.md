@@ -18,11 +18,14 @@ Get your own eProperty only move your hand.
 
 ## Page Design
 
-Homepage just like this:
+Basic mini program interface like this:
 
-![](https://github.com/i0Ek3/eProperty/blob/hyenas/images/mini.jpg).
+![](https://github.com/i0Ek3/eProperty/blob/hyenas/images/mini1.png)
 
-Query page design later.
+![](https://github.com/i0Ek3/eProperty/blob/hyenas/images/mini2.png)
+
+![](https://github.com/i0Ek3/eProperty/blob/hyenas/images/mini3.png)
+
 
 
 ## Structure
