@@ -5,28 +5,46 @@ Page({
         id: '',
         name: ''
     },
-    id: function(e){
-        var that = this;
-        var val1 = e.detail.value;
-        that.setData({
-            val1: val1
+    onLoad: function() {
+        this.setData({
+            id: app.globalData.id,
+            name: app.globalData.name
         })
-    }, name: function(e){
-        var that = this;
-        var val2 = e.detail.value;
-        that.setData({
-            val2: val2
+    },
+    confirm: function() {      
+        // TODO: validate number and string
+        if (this.data.id && this.data.name) {
+            wx.showToast({
+                title: 'Auth Successed',
+                icon: 'success',
+                duration: 2000
+            })
+            setTimeout(function() {
+                wx.navigateTo({
+                    url: '../detail/detail',
+                })
+            }, 1500)
+        } else {
+            wx.showToast({
+                title: 'Auth Failed',
+                icon: 'error',
+                duration: 2000
+            })
+        }
+    }, 
+    reset: function() {
+        this.setData({
+            'id': '',
+            'name': ''
         })
-    }, confirm: function(){
-        // TODO: validate data
-        wx.navigateTo({
-            url: '../detail/detail',
+    },
+    // TODO: generate data randomly
+    fakeit: function() {
+        // var faker = require('faker');
+        wx.showToast({
+            title: 'Generating...',
+            icon: 'loading',
+            duration: 2000
         })
-    }, reset: function(){
-        console.log(wx.clearStorage({
-          success: (res) => {},
-          fail: (res) => {},
-          complete: (res) => {},
-        }))
     }
 });

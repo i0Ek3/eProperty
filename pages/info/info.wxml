@@ -1,15 +1,15 @@
-<!--><image class="img" src="../../images/e.jpg" mode="widthFix"></image><-->
-<view class="title"> Input your Name and ID number to fetch your data.</view>
+<view class="title"> Input your Name and ID number to fetch your data</view>
 
 <view class="view-contain-ti">
     <text class="text-ti">Name</text>
-    <input class="input" model:value="{{name}}" maxlength="10" placeholder=" i.e. Zhang Jianguo" bindinput="name" type="text"></input>
+    <input class="input" model:value="{{name}}" maxlength="20" placeholder=" i.e. Zhang Jianguo" type="text"></input>
 </view>
 
 <view class="view-contain-ti">
     <text class="text-ti">ID Number</text>
-    <input class="input" model:value="{{id}}" maxlength="18" placeholder=" i.e. 123221196909032234" bindinput="id" type="idcard"></input>
+    <input class="input" model:value="{{id}}" maxlength="18" placeholder=" i.e. 123221196909032234" type="idcard"></input>
 </view>
 
 <button class="confirm" bindtap="confirm" type="primary">Confirm</button>
-<button class="reset" bindtap="reset" >Reset</button>
+<button class="fakeit" bindtap="fakeit">Fakeit</button>
+<button class="reset" bindtap="reset">Reset</button>

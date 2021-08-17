@@ -1,11 +1,24 @@
 <view class="title">Preview your eProperty data</view>
 
+<template name="format">
+    <view class="content" wx:for="{{data}}" wx:key="item" wx:for-index="key" wx:for-item="value">{{key}}:
+        <text class="value">{{value.address}}</text>
+    </view>
+</template>
+
 <!-- TODO: Generate the eProperty certificate here and show then -->
 <view class="detail">
+    <!-- <template is="format" data="{{...data}}"/>
+    <template is="format" data="{{ID}}" />
+    <template is="format" data="{{Address}}" />
+    <template is="format" data="{{Property}}" />
+    <template is="format" data="{{Expired}}" />
+    <template is="format" data="{{Status}}" /> -->
+
     <view class="content">Name:
         <text class="value">{{name}}</text>
     </view>
-    <view class="content">ID Number:
+    <view class="content">ID:
         <text class="value">{{id}}</text>
     </view>
     <view class="content">Address:

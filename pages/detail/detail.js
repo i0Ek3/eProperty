@@ -2,19 +2,22 @@ var app = getApp()
 
 Page({
   data: {
-    name: 'zhang',
-    id: '123123123123',
-    addr: 'Qingshan District, CHN',
-    property: 'P-0123455AB',
-    expired: '2099-12-01',
-    status: 'valid'
+      name: 'test',
+      id: '123',
+      addr: 'Qingshan District, CHN',
+      property: 'P-0123455AB',
+      expired: '2099-12-01',
+      status: 'valid'
   },
-  onClick: function (e){
-    this.setData({
-
-    })
-  }, download: function(){
+  download: function(){
       // TODO: download data as pdf
-      console.log("Download successful!")
+      console.log(this.data);
+
+      wx.showToast({
+        title: 'Downloaded',
+        icon: 'success',
+        duration: 2000
+      })
+      console.log("Download successful!");
     }
 });

@@ -46,6 +46,16 @@
   box-shadow: 5px 5px 10px grey;
 }
 
+.fakeit {
+  color: yellow;
+  font-weight: normal;
+  background-color: rgb(41, 32, 32);
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 10px grey;
+}
+
 .view-contain-ti {
   text-align: left;
   display: flex;

@@ -12,7 +12,7 @@ eProperty is a mini program project to fetch your property information from you 
 ## ✨ [Demo](https://) Waiting...
 
 
-## Instruction
+## Introduction
 
 Get your own eProperty only move your hand.
 
