@@ -21,18 +21,34 @@
     <view class="content">ID:
         <text class="value">{{id}}</text>
     </view>
+    <view class="content">Sex:
+        <text class="value">{{sex}}</text>
+    </view>
+    <view class="content">Phone:
+        <text class="value">{{phone}}</text>
+        <!-- <button class="edit" bindtap="edit" size="mini" style="float:right">Edit</button> -->
+    </view>
     <view class="content">Address:
         <text class="value">{{addr}}</text>
+        <!-- <button class="edit" bindtap="edit" size="mini" style="float:right">Edit</button> -->
     </view> 
     <view class="content">Property:
         <text class="value">{{property}}</text>
     </view>
+    <view class="content">Area:
+        <text class="value">{{area}}</text>
+    </view>
     <view class="content">Expired:
         <text class="value">{{expired}}</text>
+    </view>
+    <view class="content">Contract:
+        <text class="value">{{contract}}</text>
+        <button class="upload" bindtap="upload" size="mini" style="float:right">Upload</button>
     </view>
     <view class="content">Status:
         <text class="value">{{status}}</text>
     </view>
 </view>
 
+<button class="update" bindtap="update" type="primary">Update Info</button>
 <button class="download" bindtap="download" type="primary">Download eProperty</button>

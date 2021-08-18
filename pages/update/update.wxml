@@ -1,0 +1,7 @@
+<view class="title">Update Your Information</view>
+
+<view class="content">
+  <text>TEST</text>
+</view>
+
+<button class="confirm" bindtap="confirm" type="primary">Confirm</button>

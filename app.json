@@ -2,12 +2,15 @@
   "pages": [
     "pages/home/home",
     "pages/info/info",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/update/update"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "eProperty"
+    "navigationBarTitleText": "eProperty",
+    "backgroundColor": "#bbb",
+    "backgroundTextStyle": "dark"
   },
   "sitemapLocation": "sitemap.json"
 }
