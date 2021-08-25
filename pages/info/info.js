@@ -2,13 +2,20 @@ var app = getApp()
 
 Page({
     data: {
-        id: '',
-        name: ''
+
     },
     onLoad: function() {
         this.setData({
             id: app.globalData.id,
-            name: app.globalData.name
+            name: app.globalData.name,
+            sex: app.globalData.sex,
+            phone: app.globalData.phone,
+            addr: app.globalData.addr,
+            property: app.globalData.property,
+            area: app.globalData.area,
+            expired: app.globalData.expired,
+            contract: app.globalData.contract,
+            status: app.globalData.status
         })
     },
     confirm: function() {      
